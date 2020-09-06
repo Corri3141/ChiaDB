@@ -77,10 +77,7 @@ WSGI_APPLICATION = 'feria.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ChiaFerias$Ferias',
-        'USER': 'ChiaFerias',
-        'PASSWORD': 'lichita123',
-        'HOST': 'ChiaFerias.mysql.pythonanywhere-services.com',
+        'NAME': '/home/ChiaFerias/django-erp/db.sqlite3'),
         }
 }
 
