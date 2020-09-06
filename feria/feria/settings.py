@@ -78,7 +78,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+        'NAME': 'ChiaFerias$Ferias',
+        'USER': 'ChiaFerias',
+        'PASSWORD': 'lichita123',
+        'HOST': 'ChiaFerias.mysql.pythonanywhere-services.com',
+        }
 }
 
 
